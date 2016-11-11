@@ -11,5 +11,5 @@ $('#DivX9').html(resultado);
 $.get('?contador='+Senha+'&pegar=menu&filtro='+Filtro, function(resultado){
 $('#DivMenu').html(resultado);
 })	
-setTimeout('atualiza()', 10000);
+setTimeout('atualiza()', 10100);
 }
